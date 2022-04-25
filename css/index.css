@@ -475,6 +475,28 @@ select {
 
 @media  screen and (min-width:920px) {
     #copyright {
+        font-size: 1.2vw;
+    }
+    .main-logo {
+        font-size: 3vw;
+    }
+
+    .add-task-title, .tasks-title {
+        font-size: 2vw;
+    }
+    .tasks {
+        width: 40%;
+    }
+
+    .paragraph{
+        font-size : 1.5vw;
+    }
+
+    .list-container h2{
+        font-size: 1.5vw;
+    }
+
+    .list-container li{
         font-size: 1.5vw;
     }
 }
