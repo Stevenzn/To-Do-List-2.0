@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://kit.fontawesome.com/9a0f282f8e.js" crossorigin="anonymous"></script>
+    <title>To-do list</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <a class="main-logo" href="/html/index.html">
+            To-do List
+        </a>
+        <nav id="nav" class="main-nav">
+            <div class="nav-links">
+                <a class="link" href="add-task.html">Agregar Tarea</a>
+            </div>
+        </nav>
+        <button id="button-menu" class="button-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main class="add-task-main__container">
+        <div class="add-task-main__container-title">
+            <h1 class="add-task-title">Agregar Tarea</h1>
+        </div>
+        
+        <div class="add-task-main__container-form">
+            <form class="add-task-form" action="">
+                <div class="add-task__input name">
+                    <label for="task-name">Nombre de la tarea</label>
+                    <input maxlength="22" autocomplete="OFF" type="text" class="task-name" name="task-name">
+                </div>
+                <div class="add-task__input add-submit">
+                    <button id="add" class="btnAdd">Agregar</button>
+                </div>
+            </form>
+        </div>
+        <div class="filter">
+            <select name="todos" class="filter-todo" id="">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+        <div class="tasks">
+            <ul class="tasks-ul">
+
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div id="copyright">Copyright&copy; 2022 - Página creada por Steven - Todos los derechos reservados</div>
+    </footer>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
